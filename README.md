@@ -11,3 +11,5 @@ For the work queue class we’ll use one producer thread and two consumer thread
 When a consumer thread runs it checks the number of items on the queue. 
 If there are one or more work items on the queue the consumer removes one and processes it. 
 If none are available the consumer waits for the producer to add items to the queue. These steps are repreated continually for the lifetime of the application.
+
+![Design](image.png)
