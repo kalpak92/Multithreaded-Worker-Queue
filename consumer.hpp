@@ -1,3 +1,6 @@
+#ifndef CONSUMER_HPP
+#define CONSUMER_HPP
+
 #include <iostream>
 #include <memory>
 #include <thread>
@@ -8,3 +11,5 @@ public:
     Consumer();
     void run();
 };
+
+#endif

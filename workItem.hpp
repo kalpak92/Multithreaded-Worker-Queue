@@ -1,3 +1,6 @@
+#ifndef WORKITEM_HPP
+#define WORKITEM_HPP
+
 #include <string>
 
 class WorkItem {
@@ -11,3 +14,5 @@ private:
     std::string message_;
     int number_;
 };
+
+#endif
