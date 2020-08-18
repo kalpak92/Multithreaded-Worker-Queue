@@ -1,0 +1,15 @@
+Thread id 0x70000b769000 :	Published:	5
+Thread id 0x70000b769000 :	Published:	9
+Thread id 0x70000b769000 :	Published:	6
+Thread id 0x70000b769000 :	Published:	8
+Thread id 0x70000b769000 :	Published:	99
+Thread id 0x70000b769000 :	Published:	999
+Thread id 0x70000b769000 :	Published:	158
+Thread id 0x70000b769000 :	Published:	1073741823
+Thread id 0x70000b7ec000 :	Subscribed:	5
+Thread id 0x70000b7ec000 :	Subscribed:	9
+Thread id 0x70000b7ec000 :	Subscribed:	6
+Thread id 0x70000b7ec000 :	Subscribed:	8
+Thread id 0x70000b7ec000 :	Subscribed:	99
+Thread id 0x70000b7ec000 :	Subscribed:	999
+Thread id 0x70000b7ec000 :	Subscribed:	158

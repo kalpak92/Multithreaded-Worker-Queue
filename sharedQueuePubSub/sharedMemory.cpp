@@ -29,7 +29,7 @@ public:
         // adopt_lock_t : assume the calling thread already has ownership of the mutex
         std::lock_guard<std::mutex> glock(mtx_, adopt_lock);
 
-        logfile_ << "Thread id " << this_thread::get_id << " :\t";
+        logfile_ << "Thread id " << this_thread::get_id() << " :\t";
         logfile_ << log_str << log_int << endl;
     }
 
@@ -108,11 +108,11 @@ int main() {
         Publish pub;
         Subscribe sub;
         
-        vector<int> data_bus = {5, 9, 6, 8, 99, 999, 158};
+        std::vector<int> data_bus = {5, 9, 6, 8, 99, 999, 158};
         Logger log;
 
-        thread t1(pub, ref(msg_que), data_bus, ref(log));
-        thread t2(sub, ref(msg_que), ref(log));
+        std::thread t1(pub, ref(msg_que), data_bus, ref(log));
+        std::thread t2(sub, ref(msg_que), ref(log));
 
         t1.join();
         t2.join();
